@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Animated Goal Progress jQuery plugin by Tinacious Design</title>
+	<!-- plugin files -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="goalProgress.css" />
+	<script type="text/javascript" src="goalProgress.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#agidingbi').goalProgress({
+				goalAmount: 800,
+				currentAmount: 0,
+				textBefore: '$',
+				textAfter: ' raised.'
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+			<div id="agidingbi">GTC - Agidingbi</div>
+		</div>
+</body>
+</html>

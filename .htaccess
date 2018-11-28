@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.otomatikserver\.com [NC]
+RewriteRule ^(.*)$ http://otomatikserver.com/$1 [L,R=301]
